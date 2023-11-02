@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png" />
+    <title>Frontend Mentor | Intro component with sign up form</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="leftSection">
+        <div class="heading">Learn to code by watching others</div>
+        <div class="textContent">
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </div>
+      </div>
+      <div class="rightSection">
+        <div class="trialDemo">
+          <span class="try">Try it free 7 days</span> then $20/mo.thereafter
+        </div>
+        <form action="" class="trialForm">
+          <div class="firstname">
+            <input type="text" placeholder="First Name" />
+            <img src="./images/icon-error.svg" alt="" class="errorIcon" />
+            <div class="error">First Name cannot be empty</div>
+          </div>
+          <div class="lastname">
+            <input type="text" placeholder="Last Name" />
+            <img src="./images/icon-error.svg" alt="" class="errorIcon" />
+            <div class="error">Last Name cannot be empty</div>
+          </div>
+          <div class="email">
+            <input type="text" placeholder="Email Address" />
+            <img src="./images/icon-error.svg" alt="" class="errorIcon" />
+            <div class="error">Looks like this is not an email</div>
+          </div>
+          <div class="password">
+            <input type="password" placeholder="Password" />
+            <img src="./images/icon-error.svg" alt="" class="errorIcon" />
+            <div class="error">Password cannot be empty</div>
+          </div>
+          <input
+            type="button"
+            value="Claim your free trial"
+            class="submitButton" />
+          <div class="termsAndCondition">
+            By clicking the button, you are agreeing to our
+            <span class="conditions">Terms and Services</span>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
